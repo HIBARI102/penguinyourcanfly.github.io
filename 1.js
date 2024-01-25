@@ -3,8 +3,8 @@ function redirectTo(path) {
 }
 //board
 let board;
-let boardWidth = 1890;
-let boardHeight = 660;
+let boardWidth = 100%;
+let boardHeight = auto;
 let context;
 
 //bird
