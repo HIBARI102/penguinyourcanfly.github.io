@@ -3,7 +3,7 @@ function redirectTo(path) {
 }
 //board
 let board;
-let boardWidth = 100%;
+let boardWidth = 1000%;
 let boardHeight = auto;
 let context;
 
