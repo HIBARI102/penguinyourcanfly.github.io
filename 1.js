@@ -8,8 +8,8 @@ let boardHeight = 880;
 let context;
 
 //bird
-let birdWidth = 110; //width/height ratio = 408/228 = 17/12
-let birdHeight = 110;
+let birdWidth = 80; //width/height ratio = 408/228 = 17/12
+let birdHeight = 80;
 let birdX = boardWidth/8;
 let birdY = boardHeight/2;
 let birdImg;
@@ -150,7 +150,7 @@ function placePipes() {
 function moveBird(e) {
     if (e.code == "Space" || e.code == "ArrowUp" || e.code == "KeyX") {
         //jump
-        velocityY = -6;
+        velocityY = -4;
 
         //reset game
         if (gameOver) {
