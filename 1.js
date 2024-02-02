@@ -4,7 +4,7 @@ function redirectTo(path) {
 //board
 let board;
 let boardWidth = 1890;
-let boardHeight = 780;
+let boardHeight = 880;
 let context;
 
 //bird
